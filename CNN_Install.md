@@ -92,7 +92,9 @@ sudo ldconfig
 Python
 
 ```
+pip install pybind11
 PYTHON=python3 ../tensorflow/tensorflow/lite/tools/pip_package/build_pip_package_with_cmake.sh native
 ```
+It will tell you where the wheel is saved and you can install it with pip install file_name_for_wheel.whl
 
 ## Tensorflow
